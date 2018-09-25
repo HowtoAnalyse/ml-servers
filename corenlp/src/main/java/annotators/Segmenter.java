@@ -22,7 +22,7 @@ public class Segmenter {
 
         Properties props = new Properties();
         props.setProperty("annotators","tokenize, ssplit");
-        StanfordCoreNLPClient pipeline = new StanfordCoreNLPClient(props, "http://52.163.191.2", 9000, 2);
+        StanfordCoreNLPClient pipeline = new StanfordCoreNLPClient(props, "http://IP", PORT, 2);
 
         String text = "克林顿说，华盛顿将逐步落实对韩国的经济援助。"
                 + "金大中对克林顿的讲话报以掌声：克林顿总统在会谈中重申，他坚定地支持韩国摆脱经济危机。";
