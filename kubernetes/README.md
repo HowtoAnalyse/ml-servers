@@ -1,3 +1,13 @@
+
+In the world of distributed system, applications are made up of a collection of containers running on different machines.
+
+Containers are the foundational building block for the distributed system patterns. Groups of containers co-located on a single machine make up the atomic elements of distributed system patterns.
+
+**Goals behind containerization** -- to establish boundaries around specific resources. The boundary:
+1. delineates team ownership (this team owns this image)
+2. is intended to provide separation of concerns (this image does this one thing)
+3. attach different resource requirements and priorities to different containers (this application needs two cores and 6 GB of memory)
+
 ## Deploy Kubernetes on Azure
 
 ```console
